@@ -38,9 +38,14 @@
 | isFullScreen  |  无 | 无  |返回是否全屏 (Boolean)|
 |getResolutionSize|无|无|获取视频分辨率尺寸,返回值Object|
 |destroy		|无|无|销毁播放器实例|
+
 ##播放器实例
+
 	playerTarget   回调参数为播放器实例
+	
 ###播放器实例回调方法
+
+
 |  事件类型 |  说明 |
 | ------------ | ------------ |
 |play				|已经开始播放，调用 play() 方法或者设置了 autuplay 为 true 且生效时触发，这时 paused 属性为 false|
