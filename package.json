@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/HeiShanLaoYao889/supere-tcplayer.git"
+    "url": "git+ssh://git@github.com/HeiShanLaoYao889/super-tcplayer.git"
   },
   "keywords": [
     "web播放器",
@@ -19,9 +19,9 @@
   "author": "heishanlaoyao <heishanlaoyao889@126.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HeiShanLaoYao889/supere-tcplayer/issues"
+    "url": "https://github.com/HeiShanLaoYao889/super-tcplayer/issues"
   },
-  "homepage": "https://github.com/HeiShanLaoYao889/supere-tcplayer#readme",
+  "homepage": "https://github.com/HeiShanLaoYao889/super-tcplayer#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
