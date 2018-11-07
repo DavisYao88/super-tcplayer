@@ -8,10 +8,8 @@
 ##组件下载及安装
   `npm install  super-tcplayer -S`
 
-组件使用
-   `Vue.use(super-tcplayer)`
 
-组件属性
+##组件属性
    
 |  属性名       | 类型      | 是否必须  |   默认值    |  说明           |
 | ------------ | -------   | -------- |------------ | ------------   |
@@ -20,7 +18,7 @@
 | autoplay     |  Boolean  |  否      | true        |  是否自动播放     |
 |progressMarker|  Boolean  |  否      | false       |  进度条是否打点   |        
 |continuePlay  |  Boolean  |  否      | false       |  是否连续播放     |  
-|options       |  Object   |  是      | 视频id       |  只支持视频id(腾讯云)|
+|options       |  Object   |  是      | 视频id,appId       |  只支持视频id(腾讯云){fileID:"sdasads2e21",appID:"asdasda}|
 |muted		   |  Boolean  |  是		 | true  	   |   是否静音播放		|
 |playbackRates |  Array	   |  否      | [0.5,1,1.5,1.8]|播放器速率		|
 

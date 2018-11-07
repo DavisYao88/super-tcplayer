@@ -73,7 +73,7 @@
                 if (Object.keys(self.options).length  < 1) return
                 this.player = TCPlayer('player-container-id', { 
                     fileID:self.options.fileID, 
-                    appID: '1252824710',
+                    appID: self.options.appID,
                     autoplay:self.autoplay,
                     muted:self.muted,                                         //是否静音播放
                     playbackRates:self.playbackRates,
