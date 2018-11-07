@@ -9,7 +9,7 @@
 
 <script>
 
-    // import {loadExternalJS,loadExternalCSS} from './util.js'
+    import {loadExternalJS,loadExternalCSS} from './assets/util.js'
 
     export default {
         name:"tc-video-player",
@@ -48,9 +48,7 @@
             },
             playbackRates:{
               type:Array,
-              default:()=>{
-                  return [0.5,1,1.5,1.8]
-              }
+              default:()=>{ [0.5,1,1.5,1.8]}
             },
             options:{
                 type:Object,
@@ -155,26 +153,7 @@
             }
         }
     }
-    const loadExternalJS = function (arr) {
-        if (!(arr && arr.length > 0)) return;
-        arr.forEach(src => {
-            let script = document.createElement("script");
-            let html = document.getElementsByTagName('html')[0];
-            script.setAttribute("src", src);
-            script.setAttribute("charset", "UTF-8");
-            html.appendChild(script);
-        });
-} 
-    const loadExternalCSS = function (arr) {
-        if (!(arr && arr.length > 0)) return;
-        arr.forEach(href => {
-            let script = document.createElement("link");
-            let html = document.getElementsByTagName('html')[0];
-            script.setAttribute("href", href);
-            script.setAttribute("rel", "stylesheet");
-            html.appendChild(script);
-        });
-}
+
 </script>
 <style lang="less">
     #player-container-id{
