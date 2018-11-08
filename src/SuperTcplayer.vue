@@ -48,7 +48,7 @@
             },
             playbackRates:{
               type:Array,
-              default:()=>{ [0.5,1,1.5,1.8]}
+              default:()=>{ return [0.5,1,1.5,1.8]}
             },
             options:{
                 type:Object,
