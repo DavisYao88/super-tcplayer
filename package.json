@@ -1,6 +1,6 @@
 {
   "name": "super-tcplayer",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "基于腾讯web超级播放器封装的vue组件",
   "main": "dist/super-tcplayer.js",
   "scripts": {

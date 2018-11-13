@@ -18,7 +18,7 @@
 | autoplay     |  Boolean  |  否      | true        |  是否自动播放     |
 |progressMarker|  Boolean  |  否      | false       |  进度条是否打点   |        
 |continuePlay  |  Boolean  |  否      | false       |  是否连续播放     |  
-|options       |  Object   |  是      | 视频id,appId       |  只支持视频id(腾讯云){fileID:"sdasads2e21",appID:"asdasda}|
+|options       |  Object   |  是      | 视频id,appId       |  只支持视频id(腾讯云){fileID:"sdasads2e21",appID:"asdasda,us:'',t:'',sign:'',exper:'',}|
 |muted		   |  Boolean  |  是		 | true  	   |   是否静音播放		|
 |playbackRates |  Array	   |  否      | [0.5,1,1.5,1.8]|播放器速率		|
 
