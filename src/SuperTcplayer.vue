@@ -80,7 +80,7 @@ export default {
         fileID: self.options.fileID,
         sign: self.options.sign,
         t: self.options.t,
-        us: self.options.us
+        us: self.options.us,
         autoplay: self.autoplay,
         muted: self.muted, // 是否静音播放
         playbackRates: self.playbackRates,
