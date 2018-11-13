@@ -76,7 +76,11 @@ export default {
         return
       }
       this.player = TCPlayer('player-container-id', {
-        ...self.options,
+        appID: self.options.appID,
+        fileID: self.options.fileID,
+        sign: self.options.sign,
+        t: self.options.t,
+        us: self.options.us
         autoplay: self.autoplay,
         muted: self.muted, // 是否静音播放
         playbackRates: self.playbackRates,
@@ -100,7 +104,11 @@ export default {
       let self = this;
       options.appID = this.options.appID;
       this.player.loadVideoByID({
-        ...self.options
+        appID: self.options.appID,
+        fileID: self.options.fileID,
+        sign: self.options.sign,
+        t: self.options.t,
+        us: self.options.us,
       })
     },
     play () {
