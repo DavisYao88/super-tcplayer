@@ -9,7 +9,7 @@
 
 <script>
 
-import { loadExternalJS, loadExternalCSS, keyEvent } from '@/utils/tools.js'
+import { loadExternalJS, loadExternalCSS, keyEvent } from './assets/util.js'
 
 export default {
   name: 'tc-video-player',
